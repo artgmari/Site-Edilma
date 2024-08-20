@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileirão 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> <img src="./img/brasileirao.png" alt=""></h1>
+        <nav aria-label="Menu Principal">
+            <ul>
+                <li><a href="#times">Times</a></li>
+                <li><a href="#tabela">Tabela</a></li>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="#acessibilidade">Acessibilidade</a></li>
+            </ul>
+        </nav>
+        <div class="acessibilidade">
+            <button id="aumentar-fonte" aria-label="Aumentar Fonte">A+</button>
+            <button id="diminuir-fonte" aria-label="Diminuir Fonte">A-</button>
+            <button id="alto-contraste" aria-label="Alto Contraste">Alto Contraste</button>
+            <button id="leitor-tela" aria-label="Ativar Leitor de Tela">Leitor de Tela</button>
+        </div>
+    </header>
+    
+    <main>
+        <section id="times" tabindex="0">
+            <h2>Times</h2>
+            <p>Informações sobre os times participantes do Brasileirão 2024.</p>
+            <ul>
+                <li>São Paulo</li>
+                <li>Palmeiras</li>
+                <li>Flamengo</li>
+                <li>Botafogo</li>
+
+            </ul>
+        </section>
+        
+        <section id="tabela" tabindex="0">
+            <h2>Tabela</h2>
+            <table aria-label="Tabela de Classificação">
+                <thead>
+                    <tr>
+                        <th>Posição</th>
+                        <th>Time</th>
+                        <th>Pontos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr1>
+                        <td>1</td>
+                        <td><img src="./img/spfc.png" alt="São Paulo"> São Paulo</td>
+                        <td>45</td>
+                    </tr>
+                    <tr2>
+                        <td>2</td>
+                        <td><img src="./img/palmeiras.png" alt="Palmeiras">Palmeiras</td>
+                        <td>42</td>
+                    </tr>
+                    <tr3>
+                        <td>3</td>
+                        <td><img src="./img/flamengo.png" alt="Flamengo">Flamengo</td>
+                        <td>39</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><img src="./img/Fogao.png" alt="Botafogo">Botafogo</td>
+                        <td>37</td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="noticias" tabindex="0">
+            <h2>Notícias</h2>
+            <article>
+                <h3>Botafogo joga cotra o Palmeiras</h3>
+                <p>Botafogo joga cotra o Palmeiras pela libertadores, mais rivalidade fica para o Brasileirão</p>
+                <audio controls aria-label="Notícia em áudio">
+                    <source src="audio/noticia1.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+                <p>Transcrição: Em uma partida emocionante, o Fortaleza venceu o Cruzeiro por 2 a 1.</p>
+            </article>
+            <article>
+                <h3>Palmeiras faz mistério sobre Estêvão, mas pode ter Mayke de volta contra o Flamengo</h3>
+                <p>Situação do meia-atacante ainda é dúvida para o jogo de quarta-feira, enquanto o lateral-direito, desfalque contra o Internacional com dores musculares, participou sem limitações do treino</p>
+                <audio controls aria-label="Notícia em áudio">
+                    <source src="audio/noticia2.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+                <p>Transcrição: O Palmeiras começou na manhã desta segunda-feira os preparativos para o jogo de quarta, contra o Flamengo, pela Copa do Brasil.</p>
+            </article>
+            
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Brasileirão</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
